@@ -1,0 +1,39 @@
+.services {
+  text-align: center;
+  background: url('../assets/tenor (1).gif') no-repeat center;
+  background-size: cover;
+  background-position: center 20%;
+  color: white;
+  padding: 20px;
+  min-height: 100vh; /* Ensure the background covers the full height */
+}
+
+.service-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 250px; /* Push the boxes down */
+}
+
+.service-box {
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent background */
+}
+
+.buy-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #ddd;
+}

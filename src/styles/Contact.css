@@ -1,0 +1,10 @@
+.contact {
+  text-align: center;
+}
+
+.contact-image {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}

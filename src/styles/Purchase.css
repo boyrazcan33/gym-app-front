@@ -1,0 +1,61 @@
+.purchase-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.order-summary, .payment-form {
+  width: 45%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.credit-card-gif {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.contactless-img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}

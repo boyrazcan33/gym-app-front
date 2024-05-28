@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "lihtne-gym"
+  },
+  "targets": {},
+  "etags": {
+    "lihtne-gym": {
+      "extensionInstances": {}
+    }
+  },
+  "dataconnectEmulatorConfig": {
+    "postgres": {
+      "localConnectionString": "postgresql://localhost:5432?sslmode=disable"
+    }
+  }
+}
